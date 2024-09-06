@@ -1,0 +1,138 @@
+[
+    {
+        "id": "1",
+        "icon": "icon_01_perlica.jpg",
+        "img":"01_Perlica.jpg",
+        "video": "01_Perlica.mp4",
+        "codename": "Perlica",
+        "rarity": "5",
+        "gender": "Female",
+        "race": "Liberi",
+        "faction": "Endfield",
+        "weapon": "Staff",
+        "class": "Caster",
+        "text": {
+            "tag_name": "//Perlica",
+            "desc": "\"People have grown used to the gray skies of Talos-II, and certain sights are remembered no longer. What about you, Endministrator?\"\n\nThe Supervisor of Endfield Industries in charge of planning, leading, and executing various corporate operations.\n\nShe is capable of responding to various crises in a calm and decisive manner. Perlica often has to move from base to base to keep Endfield strong and growing.\n\n\"Am I getting closer to my objective...?\""
+        }
+    },
+    {
+        "id": "2",
+        "icon": "icon_02_wulfgard.jpg",
+        "img":"02_Wulfgard.jpg",
+        "video": "02_Wulfgard.mp4",
+        "codename": "Wulgard",
+        "rarity": "5",
+        "gender": "Male",
+        "race": "Lupo",
+        "faction": "Landbreaker",
+        "weapon": "Two-Handed Weapon",
+        "class": "Guard",
+        "text": {
+            "tag_name": "//Wulgard",
+            "desc": "\"I know that strength isn't everything, but in Talos-II, you can't live without it.\"\n\nAn ex-mercenary. Wulfgard is already very familiar with the darkest aspects of humanity. Years of vagabond life also gave him a maturity that goes far beyond his age. Wulfgard can be a loyal and reliable friend ... if you can earn his trust. But this is no easy feat.\n\n\"It doesn't matter how this problem is fixed. What does matter is that the problem is no more.\""
+        }
+    },
+    {
+        "id": "3",
+        "icon": "icon_03_xaihi.jpg",
+        "img":"03_Xaihi.jpg",
+        "video": "03_Xaihi.mp4",
+        "codename": "Xaihi",
+        "rarity": "5",
+        "gender": "Female",
+        "race": "Sarkaz",
+        "faction": "Order of Steal Oath",
+        "weapon": "Staff",
+        "class": "Caster",
+        "text": {
+            "tag_name": "//Xaihi",
+            "desc": "\"The angels I know definitely look nothing like this.\"\n\nVery few people know anything about Xaihi's past. They only heard that she came from an isolated and mysterious place where people have an odd reverence for technology.\n\nDespite her appearances, the way that Xaihi talks and acts is hardly typical of a girl who grew up in a cloister. \nOne must get used to her vast and seemingly trivial knowledge as well as her tendency to jump from one strange topic to the next. Xaihi herself, however, is oblivious to these issues."
+        }
+    },
+    {
+        "id": "4",
+        "icon": "icon_04_ember.jpg",
+        "img":"04_Ember.jpg",
+        "video": "04_Ember.mp4",
+        "codename": "Ember",
+        "rarity": "5",
+        "gender": "Female",
+        "race": "Sankta",
+        "faction": "Order of Steal Oath",
+        "weapon": "Two-Handed Weapon",
+        "class": "Defender",
+        "text": {
+            "tag_name": "//Ember",
+            "desc": "\"Give me an order. I'll do my best to see it done.\"\n\nEmber is a knight wandering in the North who once served a military organization known as the Order of Steel Oath.\n\nAs an act of redemption, Ember has embarked upon the long, strenuous Crusade and swore an oath to defeat ten thousand Aggeloi and Blightmorphs.\n\n\"Before my personal Crusade is done, I shall have 'no place' to return to, nor have 'anyone' whom I wish to see.\""
+        }
+    },
+    {
+        "id": "5",
+        "icon": "icon_05_avywenna.jpg",
+        "img":"05_Avywenna.jpg",
+        "video": "05_Avywenna.mp4",
+        "codename": "Avywenna",
+        "rarity": "5",
+        "gender": "Female",
+        "race": "Cautus",
+        "faction": "Talos-II General Chamber of Commerce",
+        "weapon": "Polearm",
+        "class": "Guard",
+        "text": {
+            "tag_name": "//Avywenna",
+            "desc": "\"I'm not the type who would accept any invitation. But if it's from the Endmin... Well ... maybe I'll give it a shot.\"\n\nAvywenna is a former Armed Messenger of the Talos-II General Chamber of Commerce (TGCC) and a professional combatant.\n\nDespite being an amicable and confident socialite, Avywenna always maintains her distance to keep acquaintances in the \"friend zone\". And this is how most Messengers on Talos-II deal with people.\""
+        }
+    },
+    {
+        "id": "6",
+        "icon": "icon_06_angelina.jpg",
+        "img":"06_Angelina.jpg",
+        "video": "06_Angelina.mp4",
+        "codename": "Angelina",
+        "rarity": "5",
+        "gender": "Female",
+        "race": "Vulpo",
+        "faction": "Rhodes Island",
+        "weapon": "Staff",
+        "class": "Caster",
+        "text": {
+            "tag_name": "//Angelina",
+            "desc": "\"This place is totally unlike Rhodes Island. It's all very new to me.\"\n\nAngelina is a Rhodes Island Operator dispatched to Endfield. She has mastered the rare anti-gravity Originium Arts.\n\nShe was assigned to the Endfield partnership program shortly after leaving Warfarin's facilities.\n\nShe remains a sunny optimist with a dash of anxiety but plenty of hope for the future. Warfarin is surprised by this, and somewhat nostalgic as well."
+        }
+    },
+    {
+        "id": "7",
+        "icon": "icon_07_chen_qianyu.jpg",
+        "img":"07_Chen_Qianyu.jpg",
+        "video": "07_Chen_Qianyu.mp4",
+        "codename": "Chen Xianyu",
+        "rarity": "5",
+        "gender": "Female",
+        "race": "Lung",
+        "faction": "Hongshan",
+        "weapon": "One-Handed Weapon",
+        "class": "Guard",
+        "text": {
+            "tag_name": "//Chen Xianyu",
+            "desc": "\"Let me show off a few moves this time. What do you think?\"\n\nChen Qianyu is a specialist operator of Endfield Industries and serves as Perlica's personal security detail.\n\nAs a scion of the Lung bloodline, Chen has a strong physique and is extremely talented. She has studied tactics and martial arts since a young age. The training gave her outstanding combat capabilities and a mental fortitude rarely seen in people her age.\n\nTruth and justice are the guiding tenets of her life. Chen will never compromise on matters of principle, regardless of the situation or the circumstance."
+        }
+    },
+    {
+        "id": "8",
+        "icon": "icon_08_fjall.jpg",
+        "img":"08_Fjall.jpg",
+        "video": "08_Fjall.mp4",
+        "codename": "Fjall",
+        "rarity": "5",
+        "gender": "Male",
+        "race": "Lupo",
+        "faction": "Endfield",
+        "weapon": "One-Handed Weapon",
+        "class": "Defender",
+        "text": {
+            "tag_name": "//Fjall",
+            "desc": "\"Think before you act, Endministrator.\"\n\nIt's hard to believe that the soft-spoken and polite Korlek Fjall was the legendary Beastslayer from the Order of Steel Oath. But the former warrior has grown tired of endless carnage and battle. After resigning from the Order of Steel Oath, Korlek returned to the Civilization Band and took up the medical profession.\n\nAfter multiple disappointments, Korlek finally chose to work with Endfield."
+        }
+    }
+]

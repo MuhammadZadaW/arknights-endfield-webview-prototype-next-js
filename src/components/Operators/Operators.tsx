@@ -45,6 +45,7 @@ const Operators = () => {
     setFilteredData(applyFilters)
     setCurrentPage(1)
 
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [filters])
 
   const applyFilters = () => {

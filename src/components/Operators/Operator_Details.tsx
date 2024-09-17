@@ -9,6 +9,7 @@ const Operator = ({operator}: {operator: string}) => {
     const [enabled, setEnabled] =  useState(false)
     const [isPlayFirst, setIsPlayFirst] = useState(true)
     const [play, setPlay] = useState(true)
+    const [a, setA] = useState(true)
 
     const videoPlayerRef = useRef(null)
     const data = datas.filter((data) => data.codename.replace(" ", "_") === operator)[0]
@@ -76,26 +77,28 @@ const Operator = ({operator}: {operator: string}) => {
             <div className="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark">
               <div className="border-b border-stroke px-7 py-4 dark:border-strokedark">
                 <h3 className="font-medium text-black dark:text-white">
-                  Operators
+                  Operator
                 </h3>
               </div>
-              <div className="p-7 min-h-[940px]">
-                <div className="pb-7">
+              <div className="p-7 min-h-[950px]">
+                {data.codename !== "Endministrator" ? 
+                <div>
+                  <div className="pb-7">
                     <label
                         htmlFor="toggle4"
                         className="flex cursor-pointer select-none items-center"
                     >
                         <div className="relative">
-                        <input
-                            type="checkbox"
-                            id="toggle4"
-                            className="sr-only"
-                            onChange={() => {
-                                setEnabled(!enabled);
-                                handelReplayVideo()
-                            }}
-                        />
-                        <div className="block h-8 w-14 rounded-full bg-black"></div>
+                          <input
+                              type="checkbox"
+                              id="toggle4"
+                              className="sr-only"
+                              onChange={() => {
+                                  setEnabled(!enabled);
+                                  handelReplayVideo()
+                              }}
+                          />
+                        <div className="block h-8 w-14 rounded-full bg-black" />
                         <div
                             className={`absolute left-1 top-1 flex h-6 w-6 items-center justify-center rounded-full bg-white transition 
                                 ${enabled && "!right-1 !translate-x-full"}
@@ -103,30 +106,59 @@ const Operator = ({operator}: {operator: string}) => {
                         />
                         </div>
                     </label>
-                </div>
-                <div className="mb-4 flex items-center gap-3">
-                    <div className="rounded-full" hidden={enabled} >
+                  </div>
+                  <div className="mb-4 flex items-center gap-3 text-center">
+                    <div className="rounded-full" hidden={enabled}>
                         <video 
                             onClick={handelPlayPauseVideo}
                             ref={videoPlayerRef}
                             autoPlay
-                            // controls
-                            width={720}
-                            height={900}
+                            // width={720}
+                            // height={900}
+                            width={400}
+                            height={"auto"}
                             muted
                         >
                             <source src={"/videos/endfield-operators-videos/" + data.video}/>
                         </video>
                     </div>
-                    <div className="rounded-full md:max-h-[100px]" hidden={!enabled}>
+                    <div className="rounded-full" hidden={!enabled}>
                         <Image
                             src={"/images/endfield-operators-img/" + data.img}
-                            width={602}
-                            height={1200}
+                            // width={602}
+                            // height={1200}
+                            width={400}
+                            height={0}
+                            layout="intrinsic"
                             alt={data.codename}
                         />
                     </div>
+                  </div>
                 </div>
+                : 
+                <div>
+                  <div className="mb-4 flex items-center gap-3 text-center" onClick={() => setA(!a)}>
+                    <div className="rounded-full" hidden={!a}>
+                        <Image
+                            src={"/images/endfield-operators-img/" + data.img + "_A.jpg"}
+                            width={400}
+                            height={0}
+                            layout="intrinsic"
+                            alt={data.codename + "_A"}
+                        />
+                    </div>
+                    <div className="rounded-full" hidden={a}>
+                        <Image
+                            src={"/images/endfield-operators-img/" + data.img + "_B.jpg"}
+                            width={400}
+                            height={0}
+                            layout="intrinsic"
+                            alt={data.codename + "_B"}
+                        />
+                    </div>
+                  </div>
+                </div>
+                }
               </div>
             </div>
           </div>
@@ -137,7 +169,7 @@ const Operator = ({operator}: {operator: string}) => {
                   Personal Information
                 </h3>
               </div>
-              <div className="p-7 min-h-[940px] text-black">
+              <div className="p-7 min-h-[950px] text-black">
                 <table className="w-full table-fixed">
                   <tbody>
                     <tr>

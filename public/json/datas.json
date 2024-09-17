@@ -1,5 +1,22 @@
 [
     {
+        "id": "0",
+        "icon": "",
+        "img":"00_Endministrator",
+        "video": "",
+        "codename": "Endministrator",
+        "rarity": "?",
+        "gender": "Player's Choice",
+        "race": "?",
+        "faction": "Endfield",
+        "weapon": "?",
+        "class": "?",
+        "text": {
+            "tag_name": "//Endministrator",
+            "desc": "The Endministrator of Endfield Industries.\nRumors claim that the Endministrator would always show up to turn the tide whenever a major crisis hits Endfield Industries or Talos-II, creating many legends and stories about this mysterious character.\nThe Endministrator remains an enigma throughout Talos-II. Other factions are well aware that Endfield has a very special trump card in their hand, but that is all they know.\nAs Endfield's most important secret, the Endministrator is kept in long-term hibernation within a cryostasis pod."
+        }
+    },
+    {
         "id": "1",
         "icon": "icon_01_perlica.jpg",
         "img":"01_Perlica.jpg",

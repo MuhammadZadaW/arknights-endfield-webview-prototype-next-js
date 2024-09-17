@@ -49,7 +49,8 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
           <Link href="/">
             <Image
               width={176}
-              height={32}
+              height={0}
+              layout="intrinsic"
               src={"/images/logo/logo.png"}
               alt="Logo"
               priority

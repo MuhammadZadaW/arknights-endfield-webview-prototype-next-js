@@ -1,13 +1,10 @@
 "use client";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
-import { useRouter } from "next/navigation";
 import datas from "@public/json/datas.json"
 import Link from "next/link";
 
 const Operators = () => {
-
-  const router = useRouter()
 
   const [rowsPerPage] = useState(10)
   const [currentPage, setCurrentPage] = useState(1);
@@ -294,7 +291,7 @@ const Operators = () => {
                     <div>
                       <Image 
                         className="rounded-full aspect-square object-cover"
-                        src={"/images/icon-endfield/" + data.icon} 
+                        src={data.icon !== "" ? "/images/icon-endfield/" + data.icon : "/images/icon/blank_avatar.jpg"} 
                         alt={data.codename} 
                         width={100} height={100} />
                     </div>
